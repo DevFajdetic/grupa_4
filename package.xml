@@ -3,9 +3,9 @@
 <package format="3">
   <name>grupa_4</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="kristijan@todo.todo">kristijan</maintainer>
-  <license>TODO: License declaration</license>
+  <description>Paket za projekt iz mobilne robitike</description>
+  <maintainer email="grupa_4@todo.todo">grupa_4</maintainer>
+  <license>Apache License 2.0</license>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
