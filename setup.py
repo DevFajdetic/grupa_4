@@ -15,6 +15,7 @@ setup(
         (os.path.join('share', package_name, 'rviz'), glob('rviz/*.*')),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.*')),
         (os.path.join('share', package_name, 'launch'), glob('worlds/*.*')),
+        (os.path.join('share', package_name, 'launch'), glob('models/*.*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
