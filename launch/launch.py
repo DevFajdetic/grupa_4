@@ -82,10 +82,18 @@ def generate_launch_description():
         }.items()
     )
 
+    robot_controller = Node(
+        package=PACKAGE_NAME,
+        executable='controller',
+        name='controller',
+        output='screen'
+    )
+
     ld = LaunchDescription()
 
     ld.add_action(gzserver_cmd)
     ld.add_action(robot_state_publisher_cmd)
     ld.add_action(gzclient_cmd)
     ld.add_action(spawn_turtlebot_cmd)
+    ld.add_action(robot_controller)
     return ld
